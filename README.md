@@ -1,3 +1,6 @@
+<img width="1680" alt="Screenshot 2025-05-23 at 8 00 24 PM" src="https://github.com/user-attachments/assets/06acb12d-f344-4cc9-a2f1-3498630159c0" />
+
+
 # AI Copilot Inbox
 
 An intelligent customer support interface with AI-powered assistance capabilities. This application provides a modern, responsive inbox system with real-time AI suggestions and automated response generation.
