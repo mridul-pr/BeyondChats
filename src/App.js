@@ -1,4 +1,4 @@
-import AICopilotInbox from "./pages/AICopilotInbox";
+import AICopilotInbox from "./Components/AICopilotInbox";
 
 const App = () => {
   return (

@@ -1,6 +1,45 @@
-# Getting Started with Create React App
+# AI Copilot Inbox
+
+An intelligent customer support interface with AI-powered assistance capabilities. This application provides a modern, responsive inbox system with real-time AI suggestions and automated response generation.
+
+## Features
+
+- **Real-time Messaging Interface**: Responsive chat interface for customer-agent conversations
+- **AI-Powered Assistance**: Intelligent suggestions and automated response generation
+- **Customer Context**: Dynamic customer information display with status tracking
+- **Smart Compose**: AI-assisted message composition with verification
+- **Quick Actions**: Pre-defined responses for common scenarios
+- **Responsive Design**: Optimized for desktop and mobile devices
+
+## Getting Started
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+### Prerequisites
+
+- Node.js (version 14 or higher)
+- npm or yarn package manager
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/ai-copilot-inbox.git
+cd ai-copilot-inbox
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Start the development server:
+
+```bash
+npm start
+```
 
 ## Available Scripts
 
@@ -27,44 +66,51 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
 ### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
 If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Styling
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The application uses SCSS for styling with a comprehensive design system including:
 
-## Learn More
+- **Color Variables**: Consistent color palette with primary, secondary, and semantic colors
+- **Utility Mixins**: Reusable mixins for common patterns (flex-center, button-base, input-base)
+- **Responsive Design**: Mobile-first approach with breakpoint-specific styles
+- **Component Styling**: Modular SCSS organization for maintainable code
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Components
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+-- \*\*AICopilotInbox and its styles
 
-### Code Splitting
+### AICopilotInbox
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Main container component that orchestrates the entire inbox interface.
 
-### Analyzing the Bundle Size
+### ConversationArea
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- **ConversationHeader**: Customer information and status display
+- **MessagesContainer**: Chat message display with agent/customer differentiation
+- **MessageComposer**: Input field for composing new messages
 
-### Making a Progressive Web App
+### AIPanel
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- **QuerySection**: AI query input and processing
+- **ContextSection**: Relevant conversation context display
+- **ResponseSection**: AI-generated responses with verification
+- **QuickActions**: Pre-defined response shortcuts
 
-### Advanced Configuration
+## Browser Support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
 
-### Deployment
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Built with [Create React App](https://create-react-app.dev/)
+- Styled with SCSS and modern CSS practices
+- Icons from [Lucide React](https://lucide.dev/)
